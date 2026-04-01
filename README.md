@@ -29,7 +29,7 @@ Blog: https://sites.google.com/view/sintaxiszero/inicio?pli=1
 
 Hector Alexander Martin
 Matricula: 24-misn-2-037
-Correo: [am4563603@gmail.com](mailto:am4563603@gmail.com)
+Correo: [am4563603@gmail.com]
 
 ## Estado del proyecto
 
