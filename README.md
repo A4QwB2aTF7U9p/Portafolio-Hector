@@ -23,8 +23,10 @@ Aquí se encuentra el código del portafolio y los proyectos realizados.
 ## Enlaces
 
 -GitHub: https://github.com/A4QwB2aTF7U9p
+
 -Blog: https://sites.google.com/view/sintaxiszero/inicio?pli=1
--web: portafoliohector-git-main-am4563603-7905s-projects.vercel.app
+
+-web: https://portafoliohector-git-main-am4563603-7905s-projects.vercel.app/
 
 ## Autor
 
