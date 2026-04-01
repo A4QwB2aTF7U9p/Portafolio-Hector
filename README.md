@@ -31,7 +31,9 @@ Aquí se encuentra el código del portafolio y los proyectos realizados.
 ## Autor
 
 Hector Alexander Martin
+
 Matricula: 24-misn-2-037
+
 Correo: [am4563603@gmail.com]
 
 ## Estado del proyecto
