@@ -1,54 +1,94 @@
 <!DOCTYPE html>
+<html lang="es">
+
 <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portafolio Hector Alexander Martin</title>
     <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
 
-<header>
-    <h1>Portafolio Personal</h1>
-
-    <nav>
+<header class="header">
+    <nav class="menu">
         <a href="index.html">Inicio</a>
         <a href="proyectos.html">Proyectos</a>
     </nav>
 </header>
 
-<section class="contenido">
+<!-- HERO -->
+<section class="hero">
 
-    <h2>Hector Alexander Martin</h2>
+    <div class="hero-texto">
+        <h1>Hector <span>Alexander Martin</span></h1>
+        <p class="matricula">24-misn-2-037</p>
 
-    <p>24-misn-2-037</p>
+        <p>
+            Estudiante técnico en informática enfocado
+            en desarrollo web y programación.
+        </p>
 
-    <img src="assets/hector.jpeg" width="150">
+        <div class="hero-botones">
+            <a href="proyectos.html" class="btn">Ver Proyectos</a>
+            <a href="https://github.com/A4QwB2aTF7U9p" 
+               class="btn"
+               target="_blank">
+               GitHub
+            </a>
+        </div>
+    </div>
+
+    <div class="hero-imagen">
+        <img src="assets/hector.jpeg" alt="Hector">
+    </div>
 
 </section>
 
+<!-- SOBRE MI -->
 <section class="contenido">
 
-    <h2>Sobre mí</h2>
+    <div class="card">
+        <h2>Sobre mí</h2>
 
-    <p>
-        Soy Hector Alexander Martin, estudiante técnico en informática.
-        Me gusta el desarrollo web y la programación.
-        Estoy aprendiendo HTML y CSS para crear páginas web profesionales
-y seguir mejorando mis habilidades en tecnología.
-    </p>
+        <p>
+            Me apasiona la tecnología, el desarrollo web y la programación.
+            Actualmente estoy aprendiendo HTML, CSS y JavaScript para crear
+            páginas web modernas y seguir mejorando mis habilidades.
+        </p>
+    </div>
 
 </section>
 
+<!-- HABILIDADES -->
 <section class="contenido">
 
-    <h2>Mis enlaces</h2>
+    <h2>Mis habilidades</h2>
 
-    <p>am4563603@gmail.com</p>
+    <div class="skills">
 
-    <a href="https://github.com/A4QwB2aTF7U9p" class="btn">GitHub</a>
-    
+        <div class="skill-card">HTML</div>
+        <div class="skill-card">CSS</div>
+        <div class="skill-card">JavaScript</div>
+        <div class="skill-card">GitHub</div>
+
+    </div>
+
+</section>
+
+<!-- CONTACTO -->
+<section class="contenido">
+
+    <div class="card">
+        <h2>Contacto</h2>
+        <p>📧 am4563603@gmail.com</p>
+    </div>
 
 </section>
 
 <footer>
     <p>© 2026 Hector Alexander Martin</p>
 </footer>
+
+</body>
+</html>
