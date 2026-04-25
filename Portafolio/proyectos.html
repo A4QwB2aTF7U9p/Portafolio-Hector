@@ -3,65 +3,91 @@
 
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Proyectos - Hector Alexander Martin</title>
     <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
 
-<header>
-
-    <h1>Mis Proyectos</h1>
-
-    <nav>
+<header class="header">
+    <nav class="menu">
         <a href="index.html">Inicio</a>
         <a href="proyectos.html">Proyectos</a>
     </nav>
-
 </header>
 
 <section class="contenido">
 
-    <h2>Blog Sintaxis Zero</h2>
+    <h1>Mis <span>Proyectos</span></h1>
 
     <p>
-        Este es el blog creado en una asignación anterior donde se
-        muestran contenidos sobre tecnología y desarrollo web.
+        Aquí encontrarás algunos proyectos que he desarrollado
+        durante mi formación en informática y desarrollo web.
     </p>
-
-    <a href="https://sites.google.com/view/sintaxiszero/inicio?pli=1" class="btn">
-        Ver Blog
-    </a>
 
 </section>
 
-<section class="contenido">
+<section class="proyectos-grid">
 
-    <h2>Repositorio GitHub</h2>
+    <!-- BLOG -->
+    <div class="proyecto-card">
+        <h2>Blog Sintaxis Zero</h2>
 
-    <p>
-        Aquí se encuentran todos los códigos del portafolio
-        y los proyectos desarrollados en HTML y CSS.
-    </p>
+        <img src="assets/blog.png" class="proyecto-img" alt="Blog">
 
-    <a href="https://github.com/A4QwB2aTF7U9p" class="btn">
-        Ver GitHub
-    </a>
+        <p>
+            Blog creado para compartir contenido sobre
+            tecnología y desarrollo web.
+        </p>
 
-    <div class="contenido">
+        <a href="https://sites.google.com/view/sintaxiszero/inicio?pli=1"
+           class="btn"
+           target="_blank">
+           Ver Blog
+        </a>
+    </div>
 
-    <p>Pagina web Sintaxis Zero</p>
+    <!-- GITHUB -->
+    <div class="proyecto-card">
+        <h2>Repositorio GitHub</h2>
 
-    <a href="https://portafolio-sintaxis-zero-ss1-git-main-am4563603-7905s-projects.vercel.app/" class="btn">
-        Ver web
-    </a>
+        <img src="assets/github.png" class="proyecto-img" alt="GitHub">
+
+        <p>
+            Repositorio donde almaceno todos mis códigos
+            y proyectos realizados.
+        </p>
+
+        <a href="https://github.com/A4QwB2aTF7U9p"
+           class="btn"
+           target="_blank">
+           Ver GitHub
+        </a>
+    </div>
+
+    <!-- WEB -->
+    <div class="proyecto-card">
+        <h2>Web Sintaxis Zero</h2>
+
+        <img src="assets/web.png" class="proyecto-img" alt="Web">
+
+        <p>
+            Página web desarrollada en equipo utilizando
+            HTML, CSS y JavaScript.
+        </p>
+
+        <a href="https://portafolio-sintaxis-zero-ss1-git-main-am4563603-7905s-projects.vercel.app/"
+           class="btn"
+           target="_blank">
+           Ver Web
+        </a>
+    </div>
 
 </section>
 
 <footer>
-
     <p>© 2026 Hector Alexander Martin</p>
-
 </footer>
 
 </body>
